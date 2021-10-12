@@ -3,7 +3,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'qY57Q~0_K2lUZ7Vq1SNRvk.5aH3vJo9AlxrRi'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'mOL7Q~zcqkvr4e8UfuMVpMaOG8DP~5zu7~HON'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'cmsarticlestorage'
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 's8m238ds4hFxq4uusOmU9EmjNKuE2oUBa91QyNg26dTkBusqMz3RA3/ThgSGmz04n29xeX6q8ehAq7lGITv7+g=='
@@ -19,7 +19,7 @@ class Config(object):
 
     ### Info for MS Authentication ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
-    CLIENT_SECRET = "qY57Q~0_K2lUZ7Vq1SNRvk.5aH3vJo9AlxrRi"
+    CLIENT_SECRET = "mOL7Q~zcqkvr4e8UfuMVpMaOG8DP~5zu7~HON"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
     # such as KeyVault, or environment variable as described in Flask's documentation here:
     # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
