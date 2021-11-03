@@ -18,7 +18,7 @@ App Services:
 Azure App Services are used by developers to host websites and does not require them to provision a web server. App Services are Platform as Service (PaaS) requiring developers to only worry about their application and Data. The disadvatage of App Services is the developer has no control of the infrastructure and can only work with what the vendor provides. The advantage of using App Services as opposed to Virtual Machines is workflow and less cost. App Services help the developer to only focus on building, testing, deploying, managing and updating Web Applications. 
 
 Advantages of App Services
-1. Able to deploy Apps fast
+1. Able to deploy Apps fast and using continuous deployment model such as Github, Azure DevOps or Git repo
 2. Support multiple languages such as .Net, Java, Node.js, PHP, Python
 3. Cost effective 
 4. No infrastructure responsibilties
