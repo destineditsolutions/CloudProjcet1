@@ -9,8 +9,8 @@ class Config(object):
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'Ama/EPl0XghZY6tgJK1K8/nGlcKdsWBoq8wKtmSYS8zYY3desWevX71DySjljDvC//cuis9kdcLHMKP9hunO3w=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'imagescn'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'projectcms.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'articlecmsdb'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'cmsartdbsrv.database.windows.net'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'cmsartdb'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'adminpro'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'password$547'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
